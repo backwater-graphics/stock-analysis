@@ -18,17 +18,24 @@ The results from this analysis can be found here: [VBA_challange](https://github
 ---
 ### Comparison of stock performance between 2017 and 2018 
 As we review the Daily Volumes and the Return charts for both 2017 and 2018, we can see that the green stocks we analyzed performed much better in 2017 than they did in 2018 in terms of the yearly returns and daily volumes with the exception of ENPH and RUN. In both years ENPH and RUN both had positive returns and also increased their daily trading volume.
+
 Since Steve was looking into the stocks for his parents, we also looked at the results of the DQ stocks in 2017 which had a low volume and a high yearly return (at that time this might have been an indicator of a company on the rise). However, the situation of DQ stocks in 2018 had changed completely. That stock closed its year with negative 63%. The trading volume was higher, yet it didn’t result in a positive outcome. The results of this analysis confirmed that DQ stocks would be risky investment for Steve’s Parents.
-##Code Comparison for Execution Times
+
+### Code Comparison for Execution Times
 In the original code (see below) I used nested loops which run through each record of the data set once and with a small number like our challenge of 12 records it is fine, but if you had a data set with several thousand records it would strain the system by running through the values n2 times.
- 
+### Original Code
+![original_code](https://github.com/backwater-graphics/stock-analysis/blob/main/Resources/original_code.png)
+
+### Refactored code
+![refactored_code](https://github.com/backwater-graphics/stock-analysis/blob/main/Resources/refactored_code.png)
+ ---
  I knew that if I wanted to reduce the time and the resources consumed, I would need to refactor the code into an array (see below), by doing this the computer now only needs to access each data row once, because of the data sets are presorted into essentially a zone and once its left that zone it does not have to check back through those rows to confirm that there are no other values in that range. This is what helps to cut down the time resources required to n, rather then the original code which requires n2   for the calculations. 
  
 By refactoring the script, we can see that it improved the execution times from the original script. See examples below for the comparison of execution times.
 
 ### Original Code Execution Times
 ![2017_VBA_Challenge](https://github.com/backwater-graphics/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png)![2018_VBA_Challenge](https://github.com/backwater-graphics/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png)  
-###Refactored Code Execution Times
+### Refactored Code Execution Times
 
 ![2017_VBA_Challenge_refactored](https://github.com/backwater-graphics/stock-analysis/blob/main/Resources/VBA_Challenge_refactored_2017.png)![2018_VBA_Challenge_refactored](https://github.com/backwater-graphics/stock-analysis/blob/main/Resources/VBA_Challenge_refactored_2018.png)
 ---
