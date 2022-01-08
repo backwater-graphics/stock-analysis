@@ -11,7 +11,7 @@ The analysis displayed on the tables below are for about a dozen green-energy st
 * Total daily volume for a given year
 * Percentage of a yearly return
 
-The results from this analysis can be found here: [VBA_challange](https://github.com/backwater-graphics/stock-analysis/blob/main/VBA_Challengea.xlsm)   
+The results from this analysis can be found here: [VBA_challange](https://github.com/backwater-graphics/stock-analysis/blob/main/VBA_Challenge.xlsm)   
 
 ### Daily Volume and Returns Charts
 ![2017_stock_volume_returns](https://github.com/backwater-graphics/stock-analysis/blob/main/Resources/2017_Stock_volume_returns.png)![2018_stock_volume_returns](https://github.com/backwater-graphics/stock-analysis/blob/main/Resources/2018_Stock_volume_returns.png)
